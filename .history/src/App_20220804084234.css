@@ -1,0 +1,65 @@
+.game-intro {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.game-intro h1 {
+	margin: 0;
+}
+
+.game-intro p {
+	margin: 2em 0 2em 0;
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+.container {
+	text-align: center;
+}
+
+.container button {
+	background-color: #4d5b9e;
+	color: #fff;
+	border-radius: 12px;
+	border: none;
+	padding: 15px 40px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.container button:hover {
+	background-color: #6070c4;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

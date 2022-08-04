@@ -1,0 +1,34 @@
+.answer-button {
+	background-color: #fff;
+	padding: 8px 20px;
+	border: 1px solid black;
+	border-radius: 15px;
+	margin: 0 10px;
+}
+
+.answers-container {
+	padding: 15px 0;
+}
+
+.answers-bottom-container {
+	mar
+}
+
+.answerBtn {
+	font-size: 17px;
+	padding: 8px 20px;
+	margin: 5px 10px;
+	border-radius: 8px;
+	border: 2px solid #4d5b9e;
+	color: #4d5b9e;
+	font-weight: bold;
+}
+
+.answerBtn-selected {
+	border: 2px solid #d6dbf5;
+	background-color: #d6dbf5;
+}
+
+.answerBtn-green {
+	background-color: green;
+}
